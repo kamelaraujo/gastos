@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link  rel="stylesheet" type="text/css" href="gastos.css" /> 
+    <title>Mis Gastos</title>
+  </head>
+  <body>
+    <div id = "form"> 
+    <h1>Mis gastos mensuales</h1>
+    <form action = "gastos.php" method = "post">
+      <p class = "enunciado">Elija el tipo de gasto</p>
+      <div>
+        <select name = "gasto">
+          <option value = "tienda">Tienda</option>
+          <option value = "gas">Gas</option>
+          <option value = "mercado">Mercado</option>
+          <option value = "internet">Internet</option>
+          <option value = "pasaje">Pasaje</option>
+          <option value = "otro_gasto">otro</option>
+        </select>
+      </div>
+      <p class = "enunciado"> Ingrese la cantidad:</p>
+      <div>
+        <input type = "text" name = "cantidad" />
+      </div>
+      <p class = "enunciado">Ingrese alguna observacion:</p>
+      <div>
+        <input type = "text" name = "observacion"/><br />
+      </div>
+      <div>
+        <input type = "submit" value = "Enviar"/><br />
+      </div>
+    </form>
+    </div>
+  </body>
+</html>
+

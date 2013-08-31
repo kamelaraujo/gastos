@@ -1,0 +1,50 @@
+
+body {
+  background: #b6b6b6;
+}
+
+#form {
+  width: 300px;
+  margin: 5% auto;
+  background: #f0f0f0;
+  border: 8px solid white;
+  border-radius: 9px;
+  padding: 1.5em;
+  text-align: center;
+  font-family: arial;
+}
+
+h1 {
+  font-size: 27px;
+  color: #0080ff;
+}
+
+.enunciado {
+  font-size: 20px;
+}
+
+input[type=submit], input[type=text], select, a{
+  text-decoration: none;
+  padding: 1em;
+  width: 300px;
+  font-size: 15px;
+  border: none;
+  border-radius: 9px;
+}
+
+input[type=text], select {
+  margin: 0 0 1em 0;
+}
+
+input[name=observacion] {
+  height: 100px
+}
+
+input[type=submit], a {
+  background: #0080ff
+}
+
+input[type=submit]:hover, a:hover {
+  background: #0040ff;
+  cursor: pointer;
+}
